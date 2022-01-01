@@ -1,4 +1,4 @@
-# Marlin 3D Printer Firmware
+# Marlin 3D Printer Firmware for Ender 3 MAX (4.2.2)
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
@@ -9,6 +9,15 @@
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
+
+## Changes
+Added config files for Ender 3 MAX
+
+Enabled CR Touch
+  - Added probe offsets for CR Touch
+  - 4x4 probing enabled
+  - Preheats nozzle to 195 nozzle and 55 bed before probing
+  - Changed probing margin
 
 ## Marlin 2.0
 
