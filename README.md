@@ -10,13 +10,18 @@
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
+## Information
+My Ender 3 Max came with the 4.2.2 board and 1.0.1.8 firmware.
+To get CR Touch working, I had to downgrade to the 1.0.1.6 bltouch firmware which I think is unacceptable.
+Since the 1.0.1.6 firmware was missing many features and bug fixes, I decided to compile my own by forking Marlin 2.0.x branch.
+
 ## Changes
 Added config files for Ender 3 MAX
 
 Enabled CR Touch
   - Added probe offsets for CR Touch
-  - 4x4 probing enabled
-  - Preheats nozzle to 195 nozzle and 55 bed before probing
+  - 5x5 probing enabled
+  - Preheats nozzle to 210 nozzle and 60 bed before probing
   - Changed probing margin
 
 ## Marlin 2.0
